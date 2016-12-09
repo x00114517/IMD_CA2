@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Curriculum Vitae</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="adewale.png" >
+
+<!-- Dynamic real time running	-->
+	<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Curriculum Vitae</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#education" title="">Education</a></li>
+						<li><a class="smoothscroll"  href="#projects" title="">Projects</a></li>			
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
+
+<!-- this link is for thr Github link -->
+<!-- li><a class="smoothscroll"  href="#services" title="">Services</a></li -->						
+						
+					</ul>
+				</nav> 
+       </div>
+      </div>
+    </form>
+					
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello,</h5>
+	   			<h1>I'm Adewale Awobajo</h1>
+
+<!-- ============================== Top right Search box (text input and click on glyphicon) returns nothing yet ========== -->	
+	<form class="navbar-form navbar-right">
+      <div class="input-group">
+        <input type="text" class="form-control" align="right" placeholder="Search">
+        <div class="input-group-btn"> 
+				
+<!-- ============================= Javascript for tooltip function when hovered over glyphicon.  This script should be in .js file ============== -->
+<!--script>
+$(document).ready(function(){
+    $('.btn').tooltip({title: "Click me"}); 
+});
+</script>
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button -->				
+				
+	   			<p class="intro-position">
+	   				<span>4th year student</span>
+	   				<span>IT Management</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+<body onload="startTime()">
+				<div id="txt"></div>
+	   		</div>  
+   			
+			
+   		</div>   		
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://www.facebook.com/Herdeywale.herworberjo""><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://plus.google.com/108047337722484254754"><i class="fa fa-google-plus"></i></a></li>
+         <li><a href="https://twitter.com/omobabaawo"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://web.skype.com/en/"><i class="fa fa-skype"></i></a></li>
+         <li><a href="https://www.instagram.com/omoherwoberjo/?hl=en"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/adewale.jpg" alt="Profile Picture">
+
+   				<p class="lead">A self motivated, hard working student, with experience in various different fields such as software development, web development, computer architecture, creating databases with SQL Oracle, and Socialnomics, where the focus is on using social networking to communicate with people and potential business customers.
+
+I am always trying to better myself everyday and finding new ways to improve my IT and personal skills from programming to learning new and innovative concepts.
+
+My specialities include excellent time management with working on a deadline, completing projects and working in a group on various project work to develop my communication skills.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Adewale Emmanuel Awobajo</span>
+   				</li>
+   				
+   				<li>
+   					<strong>Job:</strong>
+   					<span>4TH Year Student IT Management</span>
+   				</li>
+   				
+   				<li>
+   					<strong>Email:</strong>
+   					<span>adewaleawobajo@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>Here are the list of skills I picked up over the years.</p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>60%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>90%</span></div>
+				   	<strong>Networking</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>80%</span></div>
+				   	<strong>Database</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>60%</span></div>
+				   	<strong>Javascript</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent75"><span>50%</span></div>
+				   	<strong>Bootstrap</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent75"><span>25%</span></div>
+				   	<strong>Bash Scripting</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   <!--a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>   --->
+   			<a href="https://ie.linkedin.com/in/adewale-awobajo-b025a846" title="from my LinkedIn" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Junior Project Analyst</h3>
+	   					<p>February 2016 - August 2016</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<img src="images/bwg.jpg" alt="img1" width="100px" height="100px" align="left"><a href="https://www.bwg.ie/"></a><h4>BWG Foods Ltd. </h4>
+	   					<ul> 
+							<h5>Key Responsibilities:</h5>
+							<li>Manages day-to-day operational aspects of project scope and budget.</li>
+							<li>Ensures project documents are complete, current, and stored appropriately.</li>
+							<li>Creates and executes project work plans and revises as appropriate to meet changing needs and requirements.</li>
+							<li>Identifies opportunities for improvement and makes constructive suggestions for change.</li>
+							<li>Communicates effectively with clients to identify needs and evaluate alternative solutions.</li>
+							<li>Continually seeks opportunities to increase customer satisfaction and deepen client relationships.</li>
+							<li>Suggests areas for improvement in internal processes along with possible solutions.</li>
+						</ul>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Sales Assistant</h3>
+	   					<p>March 2010 - January 2016</P>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<img src="images/SuperValu.jpg" alt="img1" width="100px" height="100px" align="left"><a href="https://supervalu.ie/"></a><h4>Supervalu Charlesland</h4>
+	   						<ul> 
+								<li>Advising & serving customers.</li>							
+								<li>Processing payments.</li>
+								<li>Assisting customers in order to help them find what they need.</li>
+								<li>Ensuring stock levels are well maintained.</li>
+								<li>Promoting store cards or special offers.</li>
+								<li>Providing customers with information on pricing and product availability.</li>
+								<li>Arranging window displays.</li>
+								<li>Handling customer complaints or handing customers on to management.</li>
+							</ul>
+						</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+<section id="education" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>July 2015 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   						<img src="images/itt.jpg" alt="img1" width="100px" height="100px" align="left"><a href="http://www.it-tallaght.ie/"><h4>Institute of Technology Tallaght</h4></a>
+	   					<!--img id="img1" src="itt.jpg" alt="img1" -->
+					
+						<p>This four year programme will provide me with the necessary skills and knowledge to manage Information Technology infrastructure. In the modern world nearly every business is dependent on its use of information technology for its survival. Whether its sending txts or downloading music, banking or health systems, business or industry all these organisations and activities need information technology professionals to manage, plan and upgrade their IT systems. I have 1 year remaining on this course to become fully certified in this area.</p>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Fetac Level 6</h3>
+	   					<p>July 2014 - June 2015</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<img src="images/bife.jpg" alt="img1" width="100px" height="100px" align="left"><a href="http://www.it-bife.ie/"></a><h4>Bray Institute of further education</h4>
+	   				<ul>
+							<li>Graphical User Interface Programming</li>  
+							<li>Information Technology Administration</li>
+							<li>Physical and Logical Networking</li> 
+							<li>Network Infrastructure</li>
+							<li>Mobile Technologies</li> 							
+							<li>Systems Software</li>
+							<li>Work Experience</li>
+							<li>Communications</li> 
+							<li>Mathematics</li> 
+					</ul>	
+	   				
+					</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Fetac Level 5</h3>
+	   					<p>May 2013 - June 2014</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<img src="images/bife.jpg" alt="img1" width="100px" height="100px" align="left"><a href="http://www.it-bife.ie/"></a><h4>Bray Institute of further education</h4>
+	   					
+						<ul>
+							<li>Programming Design & Principles</li>
+							<li>Maths for Information Technology</li>
+							<li>Networking Essentials</li>
+							<li>Mobile Technologies</li>
+							<li>Operating Systems</li>
+							<li>Computer Systems</li>
+							<li>Work Experience</li>
+							<li>Communications</li>
+						</ul>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+
+	
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="projects">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Projects</h5>
+   			<h1>Check Out Some of My Works.</h1>
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/Tableau.jpg" alt="Tableau">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">interactive media design</h3>	     					    
+		     					    	 <!--span class="folio-types">
+		     					       	  Tableau
+		     					       </span -->
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/web.jpg" alt="web">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Web Development</h3>	     					    
+		     					    	<!--span class="folio-types">
+		     					       	  Web Design
+		     					      </span -->		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/cloud.jpg"alt="cloud">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Clouds Insfrastructure</h3>	     					    
+		     					    	<!--span class="folio-types">
+		     					       	  Clouds Insfrastructure
+		     					      </span -->		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/networks.jpg" alt="networks">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Networking</h3>	     					    
+		     					    	<!--span class="folio-types">
+		     					       	  Branding
+		     					      </span -->		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+	        		
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/Tableau.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Tableau</h4>		      
+					      <p>Did a project on Data visualisation Platform based in Tableau based on the level of crime rate in South Africa.</p> <br>
+						  <p>Tableau Software is a software company headquartered in Seattle, United States which produces interactive data visualization products focused on business intelligence.</p>
+
+					      <div class="categories">Interactive media Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.tableau.com/">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/web.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Web Project</h4>
+						  <p>I had to create a website as part of the rewuirement for the Web development course which was based on my favouritr team Manchester United</p>
+					      <p>Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.manutd.com">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/cloud.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Cloud Architecture</h4>
+						  <p>As part of the cloud Architecture module, I was able to research and design a virtualisation tapology for a given small size web development company.</p>
+					      <p>Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://www.ibm.com/cloud-computing/learn-more/what-is-cloud-computing">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Networking</h4>	
+						  <p>Had the opportunity t use the cisco parket tracer for building som amny networking tapology as a prt of the networkng module.</p>
+					      <p>The network operates by connecting computers and peripherals using two pieces of equipment; switches and routers. Switches and routers, essential networking basics, enable the devices that are connected to your network to communicate with each other, as well as with other networks.</p>
+
+					      <div class="categories">Networking</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.cisco.com/cisco/web/solutions/small_business/resource_center/articles/connect_employees_and_offices/networking_basics/index.html">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				  
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+
+	   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   	</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            246 Charlesland Park<br>
+            Greystones<br>
+            Co. Wicklow
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>adewaleawobajo@gmail.com</p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (+353) 1-23548<br>
+			   	Mobile: (+353) 860405353</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Adewale 2016.</span> 
+		        	<span>Design by @Adewale </span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+				
+			  
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
